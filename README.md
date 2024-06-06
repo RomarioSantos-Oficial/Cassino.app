@@ -41,3 +41,6 @@ This document aims to protect the intellectual property rights of [Casino lucky 
 
 
 [LINK Do projeto](https://cassino-drsbrggxb-romariosantosoficials-projects.vercel.app/)
+
+
+Romario Santos
