@@ -2,18 +2,22 @@ import Logo from "../../assets/icons/logo.png"
 import styles from "./Header.module.css"
 import { IoGiftOutline, IoSearchSharp } from "react-icons/io5";
 import { GoGear } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 
 function Header (){
     return(
         <>
             <header className={styles.header}>
-                <img  className={styles.logo}  src={Logo} alt="Logo do cassino sorte em peder" />
+                <Link to="/">
+                     <img  className={styles.logo}  src={Logo} alt="Logo do cassino sorte em peder" />
+                </Link>
+               
                 <nav className={styles.home}>
-                    <a alt="">APOSTAS ESPORTIVAS</a>
-                    <a alt="">CASSINO</a>
-                    <a alt="">FANTASY</a>
-                    <a alt="">VIRTUAIS</a>
+                    <Link to="/bets">APOSTAS ESPORTIVAS</Link>
+                    <Link to="/cassino">CASSINO</Link>
+                    <Link to="/fantasy">FANTASY</Link>
+                    <Link to="/virtual">VIRTUAIS</Link>
                 </nav>
                 <div className={styles.buscar1}>
                     <div className={styles.icons}>

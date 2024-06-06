@@ -37,3 +37,7 @@ Contact
 For questions or more information about the terms of use and the intellectual property policy, please contact us at romariodevs@gmail.com.
 
 This document aims to protect the intellectual property rights of [Casino lucky to lose](https://linktr.ee/euoromario) and ensure that the content provided is used fairly and legally. We appreciate your respect for our terms of use and your contribution to the protection of digital content.
+
+
+
+[LINK Do projeto](https://cassino-drsbrggxb-romariosantosoficials-projects.vercel.app/)
