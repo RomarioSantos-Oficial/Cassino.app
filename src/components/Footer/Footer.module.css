@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray2);
+    padding: 20px;
+}
+
+.topSection {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.link2, .aboutUs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link2 h2, .aboutUs h2 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.link2 a, .aboutUs p {
+    font-size: 0.6rem;
+    margin: 0.252rem;
+    text-decoration: none;
+    color: var(--gray1);
+}
+
+.link2 a:hover{
+    color: var(--yellow);
+}
+
+.socias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.icons1 {
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    color: var(--gray1);
+}
+
+.icon2{
+    cursor: pointer;
+}
+.icon2:hover{
+    color: var(--yellow);
+}
