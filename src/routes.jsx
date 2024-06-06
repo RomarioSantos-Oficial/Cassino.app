@@ -1,19 +1,19 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Pages404 from "./pages/Pages404";
+import PageBase from "./pages/PageBase";
 
-const Routes = () => {
+function AppRoutes() {
     return (
-        <Router>
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/contact" component={Contact} />
-            </Switch>
-        </Router>
-    );
-};
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<PageBase />}>
+                    <Route index element={<Home />}></Route>
+                    <Route path="*" element={<Pages404 />}></Route>
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    )
+}
 
-export default Routes;
+export default AppRoutes
