@@ -6,6 +6,7 @@ import Bets from "./pages/Bets";
 import Virtual from "./pages/Virtuais";
 import Cassino from "./pages/Cassino";
 import Fantasy from "./pages/Fantasy";
+import TermsOfUse from "./pages/TermsofUse";
 
 function AppRoutes() {
     return (
@@ -17,7 +18,8 @@ function AppRoutes() {
                     <Route path="/Bets" element={<Bets />}></Route>                    
                     <Route path="/Virtual" element={<Virtual />}></Route>                    
                     <Route path="/Cassino" element={<Cassino />}></Route>                    
-                    <Route path="/Fantasy" element={<Fantasy />}></Route>                    
+                    <Route path="/Fantasy" element={<Fantasy />}></Route>                                      
+                    <Route path="/Termos" element={<TermsOfUse />}></Route>                                      
                 </Route>
             </Routes>
         </BrowserRouter>

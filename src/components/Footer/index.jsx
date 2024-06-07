@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 import { IoLogoFacebook, IoLogoInstagram, IoLogoTwitter, IoLogoYoutube, IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
 
@@ -7,14 +8,14 @@ function Footer() {
             <div className={styles.topSection}>
                 <div className={styles.link2}>
                     <h2>Links úteis</h2>
-                    <a href="">Central de Ajudas</a>
-                    <a href="">Regras de Apostas</a>
-                    <a href="">Termos e Condições</a>
-                    <a href="">Políticas de Jogos</a>
-                    <a href="">Segurança</a>
-                    <a href="">Meios de pagamento</a>
-                    <a href="">Políticas de Privacidade</a>
-                    <a href="">Redes sociais</a>
+                    <Link to="/ajudas">Central de Ajudas</Link >
+                    <Link to="/regras">Regras de Apostas</Link >
+                    <Link to="/termos">Termos e Condições</Link>
+                    <Link to="/Políticasdejogos">Políticas de Jogos</Link >
+                    <Link to="/Segurança">Segurança</Link >
+                    <Link to="/Meiosdepagamento">Meios de pagamento</Link >
+                    <Link to="/PolíticasdePrivacidade">Políticas de Privacidade</Link >
+                    <Link to="/Redessociais">Redes sociais</Link >
                 </div>
                 <div className={styles.aboutUs}>
                     <h2>Sobre nós</h2>
@@ -23,12 +24,12 @@ function Footer() {
             </div>
             <div className={styles.socias}>
                 <div className={styles.icons1}>
-                    <IoLogoFacebook className={styles.icon2} />
-                    <IoLogoInstagram className={styles.icon2}/>
-                    <IoLogoTwitter className={styles.icon2}/>
-                    <IoLogoYoutube className={styles.icon2}/>
-                    <IoLogoLinkedin className={styles.icon2}/>
-                    <IoLogoGithub className={styles.icon2}/>
+                    <a href="https://www.facebook.com/profile.php?id=61559557505574" target="_blank" rel="noopener noreferrer"><IoLogoFacebook className={styles.icon2} /></a>
+                    <a href="https://www.instagram.com/euoromario/" target="_blank" rel="noopener noreferrer"><IoLogoInstagram className={styles.icon2} /></a>
+                    <a href="https://x.com/RomarioSant0s" target="_blank" rel="noopener noreferrer"> <IoLogoTwitter className={styles.icon2} /></a>
+                    <a href="https://www.youtube.com/@romariosantos3835" target="_blank" rel="noopener noreferrer"> <IoLogoYoutube className={styles.icon2} /></a>
+                    <a href="https://www.linkedin.com/in/euoromario/" target="_blank" rel="noopener noreferrer"><IoLogoLinkedin className={styles.icon2} /></a>
+                    <a href="https://github.com/RomarioDevs" target="_blank" rel="noopener noreferrer"> <IoLogoGithub className={styles.icon2} /></a>
                 </div>
             </div>
         </footer>

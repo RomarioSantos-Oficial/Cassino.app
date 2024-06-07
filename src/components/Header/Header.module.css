@@ -28,7 +28,6 @@
     height: 5.5rem;
 }
 
-
 .buscar1 {
     display: flex;
     height: 40%;
@@ -42,7 +41,6 @@
 }
 
 .icon {
-
     padding: 0.3rem;
     font-size: 2.5rem;
     cursor: pointer;
@@ -58,26 +56,28 @@
     padding: 1rem;
 }
 
-.entrar,
-.registar {
+.buttonsHome .entrar,
+.buttonsHome .registar {
+    width: 160px;
     height: 40px;
-    margin: 0.5rem;
-    width: 100px;
-    font-size: 16px;
-    font-weight: 545;
-    cursor: pointer;
-    background-color: var(--yellow);
-    transition: .5s;
+    font-size: 1rem; /* Tamanho da fonte reduzido */
+    font-weight: bold;
     border-radius: 8px;
+    background-color: var(--yellow);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: .15rem;
 }
 
-.entrar:hover {
+.buttonsHome .entrar:hover {
     background-color: var(--green);
     color: rgb(57, 57, 58);
 }
 
-
-.registar:hover {
+.buttonsHome .registar:hover {
     background-color: #CD373A;
     color: aliceblue;
 }
