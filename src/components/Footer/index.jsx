@@ -15,7 +15,7 @@ function Footer() {
                     <Link to="/segurança">Segurança</Link >
                     <Link to="/meiosdepagamento">Meios de pagamento</Link >
                     <Link to="/políticasdePrivacidade">Políticas de Privacidade</Link >
-                    <Link to="/redessociais">Redes sociais</Link >
+                    {/* <Link to="/redessociais">Redes sociais</Link > */}
                 </div>
                 <div className={styles.aboutUs}>
                     <h2>Sobre nós</h2>
