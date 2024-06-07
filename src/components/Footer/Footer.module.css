@@ -52,11 +52,11 @@
     display: flex;
     gap: 1rem;
     font-size: 2rem;
-    color: var(--gray1);
 }
 
 .icon2 {
     cursor: pointer;
+    color: var(--white);
 }
 
 .icon2:hover {

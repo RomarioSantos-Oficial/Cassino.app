@@ -12,7 +12,7 @@
 
 .header a {
     font-size: 1.5rem;
-    color: aliceblue;
+    color: var(--white);
     text-decoration: none;
     padding: 1rem;
     height: auto;
@@ -37,7 +37,7 @@
 
 .icons {
     display: flex;
-    color: aliceblue;
+    color: var(--white);
 }
 
 .icon {
@@ -58,6 +58,7 @@
 
 .buttonsHome .entrar,
 .buttonsHome .registar {
+    color: var(--gray2);
     width: 160px;
     height: 40px;
     font-size: 1rem; /* Tamanho da fonte reduzido */
