@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
-import { IoLogoFacebook, IoLogoInstagram, IoLogoTwitter, IoLogoYoutube, IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
+import { IoMailOutline, IoLogoFacebook, IoLogoInstagram, IoLogoTwitter, IoLogoYoutube, IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
 
 function Footer() {
     return (
@@ -24,6 +24,7 @@ function Footer() {
             </div>
             <div className={styles.socias}>
                 <div className={styles.icons1}>
+                    <a href="mailto:romariodevs@gmail.com"><IoMailOutline className={styles.icon2} /></a>
                     <a href="https://www.facebook.com/profile.php?id=61559557505574" target="_blank" rel="noopener noreferrer"><IoLogoFacebook className={styles.icon2} /></a>
                     <a href="https://www.instagram.com/euoromario/" target="_blank" rel="noopener noreferrer"><IoLogoInstagram className={styles.icon2} /></a>
                     <a href="https://x.com/RomarioSant0s" target="_blank" rel="noopener noreferrer"> <IoLogoTwitter className={styles.icon2} /></a>
