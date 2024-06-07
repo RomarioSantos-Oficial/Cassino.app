@@ -11,11 +11,11 @@ function Footer() {
                     <Link to="/ajudas">Central de Ajudas</Link >
                     <Link to="/regras">Regras de Apostas</Link >
                     <Link to="/termos">Termos e Condições</Link>
-                    <Link to="/Políticasdejogos">Políticas de Jogos</Link >
-                    <Link to="/Segurança">Segurança</Link >
-                    <Link to="/Meiosdepagamento">Meios de pagamento</Link >
-                    <Link to="/PolíticasdePrivacidade">Políticas de Privacidade</Link >
-                    <Link to="/Redessociais">Redes sociais</Link >
+                    <Link to="/políticasdejogos">Políticas de Jogos</Link >
+                    <Link to="/segurança">Segurança</Link >
+                    <Link to="/meiosdepagamento">Meios de pagamento</Link >
+                    <Link to="/políticasdePrivacidade">Políticas de Privacidade</Link >
+                    <Link to="/redessociais">Redes sociais</Link >
                 </div>
                 <div className={styles.aboutUs}>
                     <h2>Sobre nós</h2>

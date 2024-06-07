@@ -1,0 +1,71 @@
+/* .termsOfUse {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: auto;
+    text-align: center;
+    background-color: var(--gray1);
+    padding: 20px;
+}
+
+.termsOfUse h1, .termsOfUse h2 {
+    color: var(--gray2);
+}
+
+.termsOfUse p {
+    margin: 10px 200px;
+}
+
+.termsOfUse ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto; /* Centraliza a lista */
+    /* width: fit-content; /* Ajusta a largura ao conteúdo  */
+
+    .termsOfUse {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: auto;
+        text-align: center;
+        background-color: rgba(240, 240, 240, 0.9);
+        padding: 20px;
+        max-width: 800px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .termsOfUse h1 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .termsOfUse p {
+        margin: 10px 0;
+    }
+    
+    .termsOfUse h2 {
+        color: #444;
+        margin-top: 20px;
+    }
+    
+    .termsOfUse ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    
+    .termsOfUse ul li {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .termsOfUse ul li p {
+        margin: 5px 0 0 0;
+    }
+    
