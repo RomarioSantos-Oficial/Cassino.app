@@ -41,8 +41,8 @@ This document aims to protect the intellectual property rights of [Casino lucky 
 
 
 [LINK Do projeto](https://cassino-app.vercel.app/)
-[home](/images/img%20(6).png)
-[Tela de login](/images/img%20(5).png)
+![home](/images/img%20(6).png)
+![Tela de login](/images/img%20(5).png)
 [Tela de Registo](/images/img%20(4).png)
 [Tela de Registo 2](/images/img%20(3).png)
 [Pagina de erro404](/images/img%20(2).png)
