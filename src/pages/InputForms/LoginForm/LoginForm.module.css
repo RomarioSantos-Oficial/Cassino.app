@@ -1,0 +1,80 @@
+.loginform{
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100Vh;
+}
+
+.logo10{
+    width: 10rem;
+    height: auto;
+}
+
+.loginhearde{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.loginhearde h1{
+    font-size: 5rem;
+}
+
+.formR{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.loginform button{
+    margin: 15px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgba(167, 167, 167, 0.5); /* Borda de 2px com cor cinza claro quase transparente */
+    background-color: var(--yellow);
+    font-size: 30px;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s;
+}
+
+.loginform button:hover {
+    background-color: var(--green);
+    color: var(--gray2);
+}
+
+.loginform input{
+    border: 2px solid var(--gray1); 
+    background-color: var(--grey3); 
+    width: auto; 
+    height: 50px; 
+    text-align: center; 
+    font-size: 1.5625rem;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+
+
+.inconsfrom {
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.inconfrom{
+    color: var(--gray2);
+    cursor: pointer;
+} 
+
+.inconfrom:hover{
+    color: var(--yellow);
+}

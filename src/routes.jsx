@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Form, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Pages404 from "./pages/Pages404";
 import PageBase from "./pages/PageBase";
@@ -13,11 +13,16 @@ import GamingPolicies from "./pages/UsefulLinks/GamingPolicies";
 import Security from "./pages/UsefulLinks/Security";
 import PaymentMethods from "./pages/UsefulLinks/PaymentMethods";
 import PrivacyPolicy from "./pages/UsefulLinks/PrivacyPolicy";
+import LoginForm from "./pages//InputForms/LoginForm";
+import RegistrationForm from "./pages/InputForms/RegistrationForm";
 
 function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
+                <Route path="/registar" element={<RegistrationForm />}></Route>
+                <Route path="/entrar" element={<LoginForm />}></Route>
+
                 <Route path="/" element={<PageBase />}>
                     <Route index element={<Home />}></Route>
                     <Route path="*" element={<Pages404 />}></Route>
