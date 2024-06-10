@@ -1,0 +1,24 @@
+/* SearchForm.module.css */
+.searchForm {
+    display: flex;
+    position: absolute;
+    transform: translate(-20%, 10%);
+  }
+  
+  .searchForm input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+    background: var(--gray1);
+  }
+  
+  .searchForm button {
+    padding: 0.5em 1em;
+    background-color: var(--yellow);
+    cursor: pointer;
+  }
+
+  .searchForm button:hover{
+    background-color: var(--green);
+    color: rgb(57, 57, 58);
+  }
+  
